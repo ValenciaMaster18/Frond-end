@@ -1,0 +1,328 @@
+/* Body */
+body{
+    font-size: 1rem;
+    letter-spacing: .025rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    color: inherit;
+    font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: #19110b;
+}
+/* Header */
+/* Contenedor */
+.contenedor{
+    position: relative;
+    /* text-align: center; */
+    /* background-color: aqua; */
+    margin-top: 25px;
+}
+/* Lista */
+.list-cont{
+    list-style: none;
+}
+/* Boton de busqueda */
+.bton-busqueda{
+    position: absolute;
+    border: none;
+    background-color: white;
+    color:inherit;
+    left: 1em;
+    top: 1em;
+}
+/* Entrada de datos */
+.entrada{
+    position: absolute;
+    background-color: transparent;
+    border:none;
+    font-size: .875rem;
+    letter-spacing: .0625rem;
+    font-weight: 400;
+    left: 3em;
+    top: 1em;
+}
+
+/* titulo */
+h1{
+    font-size: 1em;
+}
+.titulo{
+    position: absolute;
+    top: 1em;
+    left: 45%;
+}
+/* lista de deseos */
+.list-deseos{
+    position: absolute;
+    font-size: .875rem;
+    letter-spacing: .0625rem;
+    font-weight: 400;
+    left: 80%;
+}
+/* MyLV */
+.my-lv{
+    position: absolute;
+    font-size: .875rem;
+    letter-spacing: .0625rem;
+    font-weight: 400;
+    left: 90%;
+}
+/* Icono */
+.icon-cont{
+    position: absolute;
+    left: 95%;
+}
+/* items */
+.cont-item{
+    background-color: white;
+    border: 0;
+}
+.cont-novedades{
+    position: absolute;
+    top: 60px;
+    left: 25%;
+}
+.cont-mujer{
+    position: absolute;
+    top: 60px;
+    left: 35%;
+}
+.cont-hombre{
+    position: absolute;
+    top: 60px;
+    left: 45%;
+}
+.cont-living{
+    position: absolute;
+    top: 60px;
+    left: 55%;
+}
+.cont-mundo{
+    position: absolute;
+    top: 60px;
+    left: 65%;
+}
+/* -------------------------------------------------------------------------------- */
+/* section */
+.cont-img{
+    position: relative;
+}
+.img-main{
+    position: absolute;
+    height: 800px;
+    min-width: 100%;
+}
+.titulo-img{
+    position: absolute;
+    color: white;
+    font-size: 150%;
+    top: 650px;
+    left: 37%;
+}
+.texto{
+    position: absolute;
+    color: white;
+    font-size: 80%;
+    top: 730px;
+    left: 38%;
+    border: 2px white solid;
+    border-radius: 30px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+
+/* -------------------------------------------------------------------------------------- */
+.cont-img2{
+    position: relative;
+}
+.img-main2{
+    position: absolute;
+    top: 800px;
+    height: 800px;
+    min-width: 100%;
+}
+.titulo-img2{
+    position: absolute;
+    color: white;
+    font-size: 150%;
+    top: 1450px;
+    left: 37%;
+}
+.texto2{
+    position: absolute;
+    color: white;
+    font-size: 80%;
+    top: 1530px;
+    left: 41%;
+    border: 2px white solid;
+    border-radius: 30px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+/* -------------------------------------------------------------------------------------- */
+
+.cont-img3{
+    position: relative;
+}
+.img-main3{
+    position: absolute;
+    top: 1600px;
+    height: 800px;
+    min-width: 100%;
+}
+.titulo-img3{
+    position: absolute;
+    color: white;
+    font-size: 150%;
+    top: 2260px;
+    left: 37%;
+}
+.texto3{
+    position: absolute;
+    color: white;
+    font-size: 80%;
+    top: 2340px;
+    left: 40%;
+    border: 2px white solid;
+    border-radius: 30px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+/* --------------------------------------------------------------------------------------------------- */
+/* section servicios */
+.contenedor-ser{
+    top: 2450px;
+    position: relative;
+}
+.cont-serv{
+    position: absolute;
+    list-style: none;
+}
+.titulo-serv{
+    text-align: center;
+}
+
+/* -------------------------------------------------- */
+.img-ser{
+    position: absolute;
+    width: 40em;
+    height: 30em;
+}
+.titulo-list-ser{
+    position: absolute;
+    top: 29em;
+}
+.texto-ser{
+    position: absolute;
+    margin-top: 535px;
+}
+.link-ser{
+    position: absolute;
+    margin-top: 580px; 
+    color: #19110b;
+}
+/* ------------------------------------------------- */
+.img-ser2{
+    position: absolute;
+    left: 44em;
+    width: 40em;
+    height: 30em;
+}
+.titulo-list-ser2{
+    position: absolute;
+    top: 29em;
+    left: 38em;
+}
+.texto-ser2{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 42em;
+}
+.link-ser2{
+    position: absolute;
+    margin-top: 480px; 
+    margin-left: 42em;
+    color: #19110b;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* Footer */
+.contenedor-footer{
+    position: relative;
+    background-color: #19110b;
+    margin-top: 3000px;
+    height: 15em;
+}
+.list-footer{
+    list-style: none;
+}
+.titulo-footer{
+    position: absolute;
+    color: white;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.img-footer{
+    position: absolute;
+    margin-top: 9em;
+    height: 1.5em;
+    width: 1.5em;
+}
+.elemento1{
+    position: absolute;
+    color: white;
+    padding: 1em;
+    margin-top: 8.2em;
+    margin-left: 2em;
+}
+.elemento2{
+    position: absolute;
+    color: white;
+    padding: 1em;
+    margin-top: 8.2em;
+    margin-left: 8em;
+}
+.elemento3{
+    position: absolute;
+    color: white;
+    padding: 1em;
+    margin-top: 8.2em;
+    margin-left: 25em;
+}
+.elemento4{
+    position: absolute;
+    color: white;
+    padding: 1em;
+    margin-top: 8.2em;
+    margin-left: 40em;
+}
+.elemento5{
+    position: absolute;
+    color: white;
+    padding: 1em;
+    margin-top: 8.2em;
+    margin-left: 46em;
+}
+.elemento6{
+    position: absolute;
+    color: white;
+    padding: 1em;
+    margin-top: 8.2em;
+    margin-left: 54em;
+}
+.elemento7{
+    position: absolute;
+    color: white;
+    padding: 1em;
+    margin-top: 8.2em;
+    margin-left: 59em;
+}
+.elemento8{
+    position: absolute;
+    color: white;
+    padding: 1em;
+    margin-top: 8.2em;
+    margin-left: 68em;
+}
